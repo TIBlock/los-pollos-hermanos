@@ -1,0 +1,121 @@
+html 
+{
+    overflow: hidden;
+    height: 100%;
+}
+
+body 
+{
+    height: 100%;
+    overflow: auto;
+}
+
+main 
+{
+    display: flex;
+    height: 300vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.static_background {
+    background-image: url("img/desert-bg-small.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    /* background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;*/
+ }
+
+ #menu_title
+ {
+    font-size: 10vh;
+    background-color: rgba(255, 235, 205, 0.500);
+    border: 3px orange solid;
+ }
+
+#main_block1
+{
+    display: flex;
+    flex: 4;
+    border: 3px orange solid;
+}
+
+#main_block2
+{
+    display:flex;
+    flex: 1;
+    border: 3px orange solid;
+    justify-content: center;
+    align-items: center;
+}
+
+#content_block1
+{
+    display:flex;
+    flex: 1;
+    justify-content: center;
+
+}
+
+#content_block2
+{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+}
+
+#content1
+{
+    height: 230vh;
+    width: 80%;
+    border: 3px orange solid;
+    margin: auto;
+    background-color: rgba(255, 235, 205, 0.900);
+
+}
+
+#content2
+{
+    height: 6vh;
+    width: 80%;
+    border: 3px orange solid;
+    margin: 5%;
+    flex: 2;
+    background-color: rgba(255, 235, 205, 0.900);
+
+}
+
+#content3
+{
+    height: 11vh;
+    width: 80%;
+    border: 3px orange solid;
+    margin: 5%;
+    flex: 8;
+    background-color: rgba(255, 235, 205, 0.900);
+
+}
+
+#content-block3
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+#content4
+{
+    height:80%;
+    width:80%;
+    border: 3px orange solid;
+    margin: auto;
+    background-color: rgba(255, 235, 205, 0.900);
+
+}
