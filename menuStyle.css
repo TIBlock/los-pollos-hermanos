@@ -10,7 +10,7 @@ body
     overflow: auto;
 }
 
-main 
+#top_content 
 {
     display: flex;
     height: 300vh;
