@@ -1,0 +1,27 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.contain_me{
+    display: flex; 
+    flex-direction: row;
+    
+}
+.right{
+    flex: 1;
+    height: 100vh;
+    width: 50vw;
+   
+}
+
+.right img{
+    background-size: contain;
+
+    }
+
+.left{
+    width: 50%
+    flex: 1;
+}
