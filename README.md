@@ -1,8 +1,8 @@
-This is our commmon README file for our Company Website Project
-Taylor - 10-30
-Gaura - 31-50
-Matt - 51-70
-BJ - 71-90
+This is our commmon README file for our Company Website Project <br>
+Taylor - 10-30<br>
+Gaura - 31-50<br>
+Matt - 51-70<br>
+BJ - 71-90<br>
 
 
 
