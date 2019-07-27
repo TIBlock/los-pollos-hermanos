@@ -31,9 +31,20 @@ main
 
  #menu_title
  {
+    display: flex;
     font-size: 10vh;
-    background-color: rgba(255, 235, 205, 0.500);
     border: 3px orange solid;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+ #menu_text 
+ {
+    border: 3px orange solid;
+    background-color: rgba(255, 235, 205, 0.900);
+    width: 40vw;
+    align-self: center;
+
  }
 
 #main_block1
