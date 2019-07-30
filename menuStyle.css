@@ -18,7 +18,8 @@ body
     flex-direction: column;
 }
 
-.static_background {
+.static_background 
+{
     background-image: url("img/desert-bg-small.jpg");
     background-attachment: fixed;
     background-position: center;
