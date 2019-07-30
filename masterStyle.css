@@ -105,3 +105,16 @@ nav {
     text-decoration: none;
     color: white;
 }
+.fixed-bottom {
+    display: flex; 
+    flex-direction: column; 
+  
+  }
+  
+  /* Copy this at the bottom of your page, inside the body outside of everything else - 
+  <footer class="fixed-bottom">
+
+  <a href="https://twitter.com/Los_Pollos_ABQ?lang=en"><img src="img/twitter.png" alt="twitter"></a>
+  <a href="https://www.facebook.com/pages/category/Show/Los-Pollos-Hermanos-Employee-Training-286118371870772/"><img src="img/facebook.png" alt="facebook"></a>
+  <a href="https://www.instagram.com/explore/locations/399218837111324/los-pollos-hermanos/?hl=en"> <img src="img/instagram.png" alt="instagram"></a>
+</footer> */
