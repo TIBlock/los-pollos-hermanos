@@ -20,10 +20,6 @@ body
     overflow: auto;
 }
 
-main 
-{
-    
-}
 .static_background {
     background-image: url("img/desert-bg-small.jpg");
     background-attachment: fixed;
