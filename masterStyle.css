@@ -26,8 +26,30 @@ main
  }
 
 
+ /* header/navbar html: copy this into the top of your html doc and the header should appear
+
+ <header>
+ <nav class="fixed-top flex-row">
+     <div class="flex1" id="nav-logo">
+         <img id="nav-logo" src="img/los-pollos-text.png" alt="Los Pollos Hermanos Logo">
+     </div>
+
+     <div class="flex1" id="nav-menu">
+         <ul>
+             <li><a href="home.html">Home</a></li>
+             <li><a href="menu.html">Menu</a></li>
+             <li><a href="about.html">About</a></li>
+             <li><a href="subscribe.html">Subscribe</a></li>
+         </ul>
+     </div>
+
+ </nav>
+     
+</header> 
+*/
+
  
-/* header classes */
+/* header/navbar classes */
 
 .flex-column {display: flex; flex-direction: column;}
 .flex-row {display: flex; flex-direction: row;}
@@ -38,7 +60,7 @@ main
 .flex8 {flex: 8;}
 .flex9 {flex: 9;}
 
- /* header style */
+ /* header/navbar style */
 
 nav {
     padding: 0px;
