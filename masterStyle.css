@@ -1,3 +1,13 @@
+.blanchedAlmond {background-color:blanchedalmond;}
+.blue{background-color:rgb(1, 43, 134);}
+.yellow{background-color:rgb(250, 205, 51);}
+.red{background-color:rgb(160, 40, 32);}
+.green{background-color:rgb(95, 134, 77)}
+.lightBlue{background-color:rgb(91, 153, 209);}
+.white{background-color:rgb(255, 255, 255);}
+.darkGray{background-color:rgb(32, 42, 54);}
+.black{background-color:black;}
+
 html 
 {
     overflow: hidden;
@@ -10,10 +20,6 @@ body
     overflow: auto;
 }
 
-main 
-{
-    
-}
 .static_background {
     background-image: url("img/desert-bg-small.jpg");
     background-attachment: fixed;
