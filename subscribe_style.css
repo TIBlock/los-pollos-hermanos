@@ -1,49 +1,11 @@
-/*NAV*/
-#nav-logo {
-    max-width: 64px;
-    padding-left: 5px;
-    padding-top:5px;
-}
-
-nav {
-    padding: 0px;
-    margin: 0px;
-    /* background-color: #D39D01; */
-    /* background-color: #f5852a; */
-    /* background-color:#C97050; */
-    /* background-color:#8C353A; */
-    background-color: #FBCF7B;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-#nav-menu > ul > li {
-    display: inline;
-    padding: 10px; 
-    padding-bottom: 0px;
-    font-family: 'Hanalei', cursive;  
-    /* font-family: 'Darker Grotesque', sans-serif; */
-    color: black;
-    
-}
-a{
-    color: black; 
-}
-
-#nav-menu {
-    text-align: start;
-    font-size: 2em;
-    padding: 5px;
-    padding-bottom: 0px;
-    align-self: flex-end;
-}
-
-/*NAV*/
 html{
     height:100%
 }
 body{
     min-height: 100%
+}
+a{
+    color: black; 
 }
 
 .contain_me{
@@ -68,8 +30,9 @@ body{
     overflow:auto;  
 }
 .right_top{
+    padding-top: 150px;
     flex:1;
-    /* overflow:hidden;  */
+    overflow:hidden;
     justify-content: center;
 
 
@@ -86,10 +49,6 @@ body{
 
 }
 .left{
-    /* background-image: url("img/desert-bg-small.jpg"); 
-    background-repeat: no-repeat; 
-    background-size: cover;
-    background-position: center; */
     flex: 3.5;
     text-align: left;
     padding-right: 20%;
@@ -131,15 +90,6 @@ form{
     font-size: 20px;
 }
 
-footer{
-  /* padding-right: 75px; */
-  display: flex;
-  justify-content: center;
-  position:relative;
-
-  /* border: solid 2px blue;
-  border-radius: 4px; */
-}
 
 
 
