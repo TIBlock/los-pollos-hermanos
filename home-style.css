@@ -1,10 +1,15 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Oswald', sans-serif;
+    
     /* border: 4px solid black; */
     
 }
 
+h1 {
+    font-weight: bold;
+}
 
 /* classes */
 
@@ -52,12 +57,12 @@ body {
 }
 
 #gus {
-    background: rgb(242, 14, 15, .7);
+    background: rgb(194, 81, 77, .7);
     
 }
 
 #heisenberg {
-    background-color: rgb(211, 156, 1, .7);
+    background-color: rgb(249, 207, 121, .7);
 }
 
 #jesse {
@@ -72,5 +77,8 @@ body {
     justify-content: space-evenly;
     text-align: center;
     font-style: italic;
+    
 }
+
+
 
