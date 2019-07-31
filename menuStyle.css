@@ -67,7 +67,8 @@ body
     }
     
     #content1
-    {
+    {   
+        
         height: 230vh;
         width: 80%;
         border: 5px orange solid;
@@ -175,12 +176,12 @@ body
 
     .entrees_menu
     {
-        font-size: 130%;
+        font-size: 150%;
     }
 
     .entree_menu_title
     {
-        font-size: 150%;
+        font-size: 170%;
     }
 
     .dessert_menu_title
@@ -197,4 +198,24 @@ body
         display: flex;
         flex-direction: column;
         min-height: 0;
+    }
+
+    .breakfast_menu_title
+    {
+        font-size: 180%;
+    }
+
+    .breakfast_menu
+    {
+        font-size: 130%;
+    }
+
+    .drinks_menu_title
+    {
+        font-size: 170%
+    }
+
+    .drinks_menu
+    {
+        font-size: 150%
     }
